@@ -1,0 +1,35 @@
+{
+  "artifact_sha256": {
+    "data_quality.md": "d327cd050be5d4fb45198618fcef15be0c4098d7a92c302de039e5fb6a777c51",
+    "eda_analysis.md": "7efb50e4678955e12f49dbce179e7470faf3b5ce8ddd22b602b931bf8a36fbcd",
+    "evaluation.md": "9bbbd7edb2b8aabf0e4c5e268fef65898686b2053def6c5e9c33d1f9dd060911",
+    "experiment_log.md": "ce06c4b9c3753c1db2c470cff41c596540f06e833a59d9ea6c5b5697304daefa",
+    "feature_dictionary.md": "cc5da9a4d33cf1380996c6e269fb22685290cacb91e3b12430fd07fa4d6e4ced",
+    "inference_contract.md": "16dbf0abf38c98c9d2167517db71c92bbaf05e1b02aca71c902e40afc853a7b5",
+    "inference_input.csv": "23f7c4c19920147a4b6eafd520ce2c7c1b5a541abe9406fdfe0e1516a7dc174d",
+    "insight.md": "3f2b8384f1d15b23b56acaff95065b5d55ff381868b3648585878693838bc26f",
+    "leakage_audit.md": "9ba6095dc8d0c0a2a6237640af145f9f5188e8690ab53e4ae1efe021da83ba74",
+    "metrics.json": "f77b4a63bad67ef933c217f20af78362988eb136d044ff31d90e5cb78e8e0865",
+    "model.json": "d27a4ad7b5156019b75d9cf03bfc52e3cf54b0af02a07d057caa61184bbc5afa",
+    "model_card.md": "868797857f14437eb8e6b57b409f782146378c371bd0b688907601e2d55ab09c",
+    "predictions.csv": "df2c7fa42baabc1b17b147b98cd28c79e4fb384f5517b16a35a7abc5e7ce9d5b",
+    "report.md": "15aa4e147a043f4d92b3869532390ef8ca389d91bd0602947a29502bf1215dc2",
+    "req_analysis.md": "fe3fdc170b0aaec296570f488c6adce710a2fb983db2d3a748efdc1fd82b06e5",
+    "requirement.md": "d05cde0b860f004cbaeb89ceeb0fb25abfed78fdd59f40b2d9f7ed3470aa60ad",
+    "split_manifest.json": "b346862044c62b1c3852479ea5edf4661abaeb382eb5087d34ccb50ff7eb7400",
+    "synthetic_data.csv": "fa2235c71c1afbf6cb56da1b152c4be70ccd6a302bdf24cfc320221d9ca12318"
+  },
+  "input_sha256": "fa2235c71c1afbf6cb56da1b152c4be70ccd6a302bdf24cfc320221d9ca12318",
+  "numpy": "2.5.3",
+  "pandas": "2.3.3",
+  "python": "3.12.14",
+  "scikit_learn": "1.9.1",
+  "seed": 42,
+  "source_sha256": {
+    "predict.py": "5ce85d33b92c8b172d46c639725fc53e745f6c5994ce818fc323d6bdaf3402a5",
+    "run.py": "31a29c23a77a127e003f50093d08f3901ed497047c8b2655639d138b29323284",
+    "train.py": "6e97c0b3da839378ea0edc43574866c0bf3eb63481ecacc90d0d86c5adce63ab",
+    "workflow.py": "23c2e332948aba13a3a490c9c60dce56e48c57c0970cdf28cbc7f8548dcb9654"
+  },
+  "synthetic_only": true
+}

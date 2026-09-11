@@ -1,0 +1,2 @@
+-r examples/subscription-retention/requirements.txt
+PyYAML>=6.0,<7

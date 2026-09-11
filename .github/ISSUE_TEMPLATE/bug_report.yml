@@ -1,0 +1,62 @@
+name: Bug report
+description: Report a reproducible skill, installation, or example failure.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please use synthetic data in your reproduction. Do not include credentials, personal data, confidential material, or private paths containing sensitive information.
+  - type: input
+    id: affected
+    attributes:
+      label: Affected skill or component
+      description: For example, ds-leakage-audit, installation, or the subscription-retention example.
+    validations:
+      required: true
+  - type: input
+    id: revision
+    attributes:
+      label: Repository revision or release
+      description: Include the commit or release you used. Say unknown if you cannot determine it.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Agent client and model, operating system, runtime versions, and relevant enabled tools. Omit secrets.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Minimal reproduction
+      description: Include the exact prompt or command, a small synthetic fixture, and steps needed to reproduce the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: Describe an observable result or artifact, not just a preferred answer.
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior and evidence
+      description: Include relevant output, error messages, or artifact excerpts. Distinguish what you observed from what you suspect.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact or workaround
+      description: Explain what this prevents, and any workaround you tried.
+  - type: checkboxes
+    id: safe_to_share
+    attributes:
+      label: Sharing check
+      options:
+        - label: I have removed credentials, personal data, and confidential material from this report and its attachments.
+          required: true

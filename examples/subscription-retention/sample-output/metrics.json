@@ -1,0 +1,94 @@
+{
+  "excluded_features": [
+    "customer_id",
+    "as_of",
+    "outcome_available_at",
+    "extracted_at",
+    "cancellation_confirmed_after_30d",
+    "churn_next_30d"
+  ],
+  "partitions": {
+    "test": {
+      "dummy_prior": {
+        "average_precision": 0.24912280701754386,
+        "brier_score": 0.18902852369017786,
+        "f1": 0.0,
+        "n": 285,
+        "prevalence": 0.24912280701754386,
+        "roc_auc": 0.5,
+        "threshold": 0.5
+      },
+      "fixed_rule": {
+        "average_precision": 0.3234124042500618,
+        "brier_score": 0.2771929824561403,
+        "f1": 0.4148148148148148,
+        "n": 285,
+        "prevalence": 0.24912280701754386,
+        "roc_auc": 0.613070949058839,
+        "threshold": 0.5
+      },
+      "selected_model": {
+        "average_precision": 0.50974113102043,
+        "brier_score": 0.1582158003846966,
+        "f1": 0.507177033492823,
+        "n": 285,
+        "prevalence": 0.24912280701754386,
+        "roc_auc": 0.7479268132157431,
+        "threshold": 0.25
+      }
+    },
+    "validation": {
+      "dummy_prior": {
+        "average_precision": 0.2523809523809524,
+        "brier_score": 0.19095238095238096,
+        "f1": 0.0,
+        "n": 210,
+        "prevalence": 0.2523809523809524,
+        "roc_auc": 0.5,
+        "threshold": 0.5
+      },
+      "fixed_rule": {
+        "average_precision": 0.33980233602875115,
+        "brier_score": 0.23333333333333334,
+        "f1": 0.36363636363636365,
+        "n": 210,
+        "prevalence": 0.2523809523809524,
+        "roc_auc": 0.6002283379401514,
+        "threshold": 0.5
+      },
+      "selected_model": {
+        "average_precision": 0.5224408340706519,
+        "brier_score": 0.1587651843248502,
+        "f1": 0.5581395348837209,
+        "n": 210,
+        "prevalence": 0.2523809523809524,
+        "roc_auc": 0.7641509433962265,
+        "threshold": 0.25
+      }
+    }
+  },
+  "seed": 42,
+  "selected": "logistic_C=1.0",
+  "selection_metric": "validation ROC-AUC",
+  "threshold_selection": "validation F1, fixed grid 0.20:0.05:0.80",
+  "validation_candidates": {
+    "logistic_C=0.1": {
+      "average_precision": 0.5208908245627485,
+      "brier_score": 0.1597660729433702,
+      "f1": 0.25,
+      "n": 210,
+      "prevalence": 0.2523809523809524,
+      "roc_auc": 0.7631895204903256,
+      "threshold": 0.5
+    },
+    "logistic_C=1.0": {
+      "average_precision": 0.5224408340706519,
+      "brier_score": 0.1587651843248502,
+      "f1": 0.2647058823529412,
+      "n": 210,
+      "prevalence": 0.2523809523809524,
+      "roc_auc": 0.7641509433962265,
+      "threshold": 0.5
+    }
+  }
+}

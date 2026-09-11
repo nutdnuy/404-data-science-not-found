@@ -1,0 +1,1 @@
+{"observation_window":"2025-01-01 to 2025-12-31","rows":52000,"distinct_customers":1000,"snapshot_cadence":"weekly","label_window_days":30,"availability_timestamp_recorded":false,"database_extract_date":"2026-02-01"}

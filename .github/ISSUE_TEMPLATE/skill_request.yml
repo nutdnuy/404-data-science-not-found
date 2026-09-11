@@ -1,0 +1,56 @@
+name: Skill request
+description: Propose a focused improvement to a data-science workflow.
+title: "[Skill]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Start with the decision or missing handoff. A focused change to an existing skill may be more useful than a new skill. Use public or synthetic examples only.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and intended user
+      description: Who encounters this problem, what decision are they making, and where does the current workflow break down?
+    validations:
+      required: true
+  - type: textarea
+    id: existing
+    attributes:
+      label: Existing skills considered
+      description: Which current skills did you try or review? Explain the specific gap.
+    validations:
+      required: true
+  - type: textarea
+    id: contract
+    attributes:
+      label: Proposed inputs and outputs
+      description: List the necessary inputs, the expected artifact, and the next handoff. Identify important unavailable information.
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Realistic example prompt
+      description: Provide one concrete user request that should trigger this behavior, using public or synthetic context.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Observable success and failure criteria
+      description: How would a reviewer tell whether it worked? Include at least one incorrect behavior to catch.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Dependencies and scope boundaries
+      description: Note required tools, data assumptions, known risks, and work that should remain out of scope.
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: How you can help
+      options:
+        - label: I can supply a small public or synthetic example.
+        - label: I can reproduce and review a proposed implementation.
+        - label: I would like to contribute an implementation.

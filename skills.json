@@ -1,0 +1,19 @@
+{
+  "name": "data-science-skills",
+  "version": "0.1.0",
+  "format": "https://agentskills.io/specification",
+  "skills": [
+    {"name": "ds-requirements", "stage": "requirements", "output": "requirement.md"},
+    {"name": "ds-solution-design", "stage": "solution", "output": "req_analysis.md"},
+    {"name": "ds-eda", "stage": "exploration", "output": "eda_analysis.md"},
+    {"name": "ds-data-cleaning", "stage": "cleaning", "output": "data_quality.md"},
+    {"name": "ds-insight", "stage": "insight", "output": "insight.md"},
+    {"name": "ds-feature-engineering", "stage": "features", "output": "feature_dictionary.md"},
+    {"name": "ds-model-development", "stage": "training", "output": "experiment_log.md"},
+    {"name": "ds-model-evaluation", "stage": "evaluation", "output": "evaluation.md"},
+    {"name": "ds-inference", "stage": "inference", "output": "inference_contract.md"},
+    {"name": "ds-report", "stage": "reporting", "output": "report.md"},
+    {"name": "ds-leakage-audit", "stage": "review", "output": "leakage_audit.md"},
+    {"name": "ds-pipeline", "stage": "coordination", "output": "ds_project.md"}
+  ]
+}

@@ -1,0 +1,3 @@
+# Data quality
+
+Source: 1200 synthetic rows, unique customer IDs, 30-day outcome timestamps. Structural source checks cover all rows; target EDA covers training only. Sessions include 47 missing and 12 negative sentinel values. Negative sessions become missing under a fixed domain rule; the median imputer learns from training only. Inference rejects missing/nonfinite inputs so callers must repair them upstream. Split retains 630 training, 210 validation, and 285 final-test rows; 75 rows are excluded for label maturity. See split_manifest.json for all IDs and dates. No duplicate removal or target-dependent cleaning is used.

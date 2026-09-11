@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- Renamed the project to **404 Data Science Not Found** and the public repository
+  to `nutdnuy/404-data-science-not-found`; updated installation and documentation links.
+- Existing `ds-*` skill names and behavior are unchanged.
+
 ## 0.1.0 — 2026-09-11
 
 - Twelve original, individually installable Data Science skills.

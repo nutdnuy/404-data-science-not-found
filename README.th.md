@@ -1,4 +1,4 @@
-# Data Science Skills
+# 404 Data Science Not Found
 
 **ฟีเจอร์ที่แม่นที่สุดของโมเดล อาจเป็นฟีเจอร์ที่แอบเห็นอนาคต**
 
@@ -10,7 +10,7 @@ Agent Skills 12 ตัว สำหรับงาน Data Science ตั้ง�
 ## ติดตั้ง
 
 ```bash
-npx skills add nutdnuy/data-science-skills
+npx skills add nutdnuy/404-data-science-not-found
 ```
 
 เลือกสกิลและเครื่องมือที่ใช้ เช่น Codex, Claude Code หรือ Cursor ผ่านตัวติดตั้ง
@@ -19,7 +19,7 @@ npx skills add nutdnuy/data-science-skills
 อยากเริ่มจากตัวเดียว:
 
 ```bash
-npx skills add nutdnuy/data-science-skills --skill ds-leakage-audit
+npx skills add nutdnuy/404-data-science-not-found --skill ds-leakage-audit
 ```
 
 จากนั้นพิมพ์ใน Agent ว่า:

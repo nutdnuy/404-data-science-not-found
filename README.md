@@ -1,4 +1,4 @@
-# Data Science Skills
+# 404 Data Science Not Found
 
 **Your model's best feature might be cheating.**
 
@@ -8,7 +8,7 @@ cleaning, modeling, inference, and an evidence-backed report.
 [ภาษาไทย](README.th.md) · [Pick a skill](#pick-a-skill) · [Run the demo](#run-the-demo) · [Contribute](CONTRIBUTING.md)
 
 ```bash
-npx skills add nutdnuy/data-science-skills
+npx skills add nutdnuy/404-data-science-not-found
 ```
 
 Start with a question your agent should ask before celebrating a score:
@@ -41,13 +41,13 @@ the installer; Python 3.10+ is only needed for the reference demo.
 
 ```bash
 # Inspect available skills first
-npx skills add nutdnuy/data-science-skills --list
+npx skills add nutdnuy/404-data-science-not-found --list
 
 # Install just the leakage review into your project
-npx skills add nutdnuy/data-science-skills --skill ds-leakage-audit
+npx skills add nutdnuy/404-data-science-not-found --skill ds-leakage-audit
 
 # Or choose skills and agents interactively
-npx skills add nutdnuy/data-science-skills
+npx skills add nutdnuy/404-data-science-not-found
 ```
 
 Then ask your agent in ordinary language to use the skill by name. Some clients
@@ -112,8 +112,8 @@ creates its own synthetic data, including a deliberately invalid feature from
 after the outcome. It runs locally with no API key or dataset download.
 
 ```bash
-git clone https://github.com/nutdnuy/data-science-skills.git
-cd data-science-skills
+git clone https://github.com/nutdnuy/404-data-science-not-found.git
+cd 404-data-science-not-found
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r examples/subscription-retention/requirements.txt

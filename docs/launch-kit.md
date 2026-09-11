@@ -14,7 +14,7 @@ Use this copy after checking the repository URL and running the documented examp
 
 ## English launch post
 
-I’m building **Data Science Skills**: 12 composable skills for AI coding agents that take a data project from requirements to a reviewable report.
+I’m building **404 Data Science Not Found**: 12 composable skills for AI coding agents that take a data project from requirements to a reviewable report.
 
 The question I want an agent to answer before “which model?” is: **What decision are we making, and what data would actually be available then?**
 
@@ -25,16 +25,16 @@ The repository includes a runnable synthetic subscription-retention example and 
 Install:
 
 ```sh
-npx skills add nutdnuy/data-science-skills
+npx skills add nutdnuy/404-data-science-not-found
 ```
 
 I’d like feedback from people doing real analysis: **which handoff between these stages costs you the most rework?** A small reproducible example of where a skill fails is especially useful.
 
-Repository: https://github.com/nutdnuy/data-science-skills
+Repository: https://github.com/nutdnuy/404-data-science-not-found
 
 ## Thai launch post
 
-ผมกำลังทำ **Data Science Skills** ชุด 12 สกิลสำหรับ AI coding agent ให้ทำงานตั้งแต่เก็บความต้องการจนถึงรายงานที่คนตรวจสอบต่อได้
+ผมกำลังทำ **404 Data Science Not Found** ชุด 12 สกิลสำหรับ AI coding agent ให้ทำงานตั้งแต่เก็บความต้องการจนถึงรายงานที่คนตรวจสอบต่อได้
 
 ก่อนถามว่า “ใช้โมเดลอะไรดี” ผมอยากให้ agent ตอบให้ได้ก่อนว่า **เรากำลังตัดสินใจเรื่องอะไร และในเวลาที่ตัดสินใจ เรามีข้อมูลอะไรอยู่จริงบ้าง?**
 
@@ -45,20 +45,20 @@ Repository: https://github.com/nutdnuy/data-science-skills
 ติดตั้งได้ด้วย:
 
 ```sh
-npx skills add nutdnuy/data-science-skills
+npx skills add nutdnuy/404-data-science-not-found
 ```
 
 อยากฟังจากคนทำ Data Science ครับว่า **รอยต่อระหว่างขั้นตอนไหนทำให้ต้องย้อนกลับไปแก้งานบ่อยที่สุด?** ถ้ามีตัวอย่างเล็ก ๆ ที่ทำให้สกิลทำงานพลาด เปิด issue มาได้เลยครับ
 
 ตัวอย่างใช้ข้อมูลสังเคราะห์เพื่อสาธิตวิธีทำงาน ผลลัพธ์จึงยังไม่ได้ยืนยันว่าจะใช้ได้ดีกับข้อมูลธุรกิจจริง
 
-Repository: https://github.com/nutdnuy/data-science-skills
+Repository: https://github.com/nutdnuy/404-data-science-not-found
 
 ## Short version
 
-**English:** Before an AI agent picks a model, make it define the decision, the prediction time, and the evidence. Data Science Skills is a collection of 12 composable skills with a runnable synthetic example. Which data-science handoff would you improve first? https://github.com/nutdnuy/data-science-skills
+**English:** Before an AI agent picks a model, make it define the decision, the prediction time, and the evidence. 404 Data Science Not Found is a collection of 12 composable skills with a runnable synthetic example. Which data-science handoff would you improve first? https://github.com/nutdnuy/404-data-science-not-found
 
-**ไทย:** ก่อนให้ AI เลือกโมเดล ให้มันอธิบายการตัดสินใจ เวลาที่ใช้ทำนาย และหลักฐานที่ต้องมีก่อน ผมทำ Data Science Skills ไว้ 12 สกิล พร้อมตัวอย่างข้อมูลสังเคราะห์ที่รันได้ ลองแล้วเจอขั้นตอนไหนควรปรับ บอกกันได้ครับ https://github.com/nutdnuy/data-science-skills
+**ไทย:** ก่อนให้ AI เลือกโมเดล ให้มันอธิบายการตัดสินใจ เวลาที่ใช้ทำนาย และหลักฐานที่ต้องมีก่อน ผมทำ 404 Data Science Not Found ไว้ 12 สกิล พร้อมตัวอย่างข้อมูลสังเคราะห์ที่รันได้ ลองแล้วเจอขั้นตอนไหนควรปรับ บอกกันได้ครับ https://github.com/nutdnuy/404-data-science-not-found
 
 ## Demonstration outline
 
